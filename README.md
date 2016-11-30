@@ -3,7 +3,7 @@
 ###循环滚动菜单！
 
 ###预览图
-![image]()
+![image](https://github.com/visoon/WXScrollMenu/blob/master/scroll.gif)
 
 ###使用方式
 ####初始化
