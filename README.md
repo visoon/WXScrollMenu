@@ -1,12 +1,12 @@
 ## WXScrollMenu
 
-###循环滚动菜单！
+###Cyclic scroll menu.
 
-###预览图
+###Preview gif
 ![image](https://github.com/visoon/WXScrollMenu/blob/master/scroll.gif)
 
-###使用方式
-####初始化
+###Usage
+####init
 ```c
     NSMutableArray *buttonArr = [NSMutableArray array];
     NSMutableArray *colorArr = [NSMutableArray array];
@@ -28,14 +28,14 @@
     [self.view addSubview:_segmentedView];
 ```
 
-####回调
+####call back with delegate
 ```c
 - (void)didSuccessScrollToIndex:(NSInteger)index {
     NSLog(@"currentIndex = %d", index);
 }
 ```
 
-####其它方法
+####others
 ```c
 /**
  *  根据进度滚动到index
@@ -52,7 +52,3 @@
  */
 - (void)scrollToIndex:(NSInteger)index;
 ```
-
-
-###注意事项
-如果存在bug，请提交pull request
