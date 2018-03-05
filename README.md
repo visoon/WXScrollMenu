@@ -1,12 +1,12 @@
 ## WXScrollMenu
 
-###Cyclic scroll menu.
+### Cyclic scroll menu.
 
-###Preview gif
+### Preview gif
 ![image](https://github.com/visoon/WXScrollMenu/blob/master/scroll.gif)
 
-###Usage
-####init
+### Usage
+#### init
 ```c
     NSMutableArray *buttonArr = [NSMutableArray array];
     NSMutableArray *colorArr = [NSMutableArray array];
@@ -28,14 +28,14 @@
     [self.view addSubview:_segmentedView];
 ```
 
-####call back with delegate
+#### call back with delegate
 ```c
 - (void)didSuccessScrollToIndex:(NSInteger)index {
     NSLog(@"currentIndex = %d", index);
 }
 ```
 
-####others
+#### others
 ```c
 /**
  *  根据进度滚动到index
